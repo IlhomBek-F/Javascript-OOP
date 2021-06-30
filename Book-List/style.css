@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+}
+
+.container h1 {
+  text-align: center;
+}
+.success {
+  color: white;
+  padding: 15px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: green;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.error {
+  background: lightcoral;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.delete {
+  color: red;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#book-list td {
+  padding: 1rem;
+  background-color: lightgrey;
+}

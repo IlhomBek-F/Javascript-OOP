@@ -1,0 +1,46 @@
+table th,
+td {
+  border: 1px solid white;
+  width: 100px;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.container {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url("https://pbs.twimg.com/media/ECWa9dIWsAAtQl5.jpg:large");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: cursive;
+
+  color: white;
+}
+
+.c-img img {
+  width: 80px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 2rem;
+}
+
+.player-img-right,
+.player-img-left {
+  width: 400px;
+}
+
+.player-right-ctn {
+  text-align: center;
+}
+
+.stats {
+  text-align: center;
+}
